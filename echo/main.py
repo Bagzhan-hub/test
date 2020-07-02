@@ -39,6 +39,9 @@ def do_echo(bot: Bot, update: Updater):
     )
 def new_changed(self):
     return 'hello'
+
+def new_changed2(self):
+    return 1+2
     
 def main():
     bot=Bot(
